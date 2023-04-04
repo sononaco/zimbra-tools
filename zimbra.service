@@ -1,5 +1,5 @@
 # systemd integration for Zimbra, cat this into /etc/systemd/system/zimbra.service
-# And remove the /etc/init.d/zimbra file and all /etc/rc.*/*zimbra* crap before deploying this service file
+# And remove the /etc/init.d/zimbra file, /etc/rc.*/*zimbra* and /etc/rc.d/rc*.*/*zimbra* crap before deploying this service file
 [Unit]
 Description=Zimbra Collaboration Suite
 After=syslog.target network.target
